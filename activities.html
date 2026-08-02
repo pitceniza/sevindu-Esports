@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities — Sevendu Esports</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span class="num">07</span> SEVENDU</a>
+    <ul class="nav-links">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About Us</a></li>
+      <li><a href="index.html#members">Members</a></li>
+      <li><a href="activities.html" class="active">Activities</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<section class="activities-hero">
+  <div class="container">
+    <span class="eyebrow">// Activities</span>
+    <h1 style="font-size:clamp(32px,5vw,56px); margin-top:14px;">Match day, practice, and everything after</h1>
+    <p style="color:var(--muted); max-width:560px; margin-top:16px;">Photos and clips from tournaments, scrims, and community events. Click any tile to see the full story next to it.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:40px;">
+  <div class="container">
+
+    <div class="detail-panel">
+      <div class="detail-media"></div>
+      <div class="detail-text">
+        <span class="tag">Photo</span>
+        <h3>Title</h3>
+        <p>Description goes here.</p>
+        <button class="detail-close">Close</button>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+
+      <button class="gallery-item" data-type="image"
+        data-title="Grand Final — Map 3 Match Point"
+        data-desc="Sevendu closes out the regional grand final 13-11 on the deciding map, sealing the org's seventh title in front of a packed local venue."
+        data-full="https://picsum.photos/id/1076/1000/1000">
+        <img src="https://picsum.photos/id/1076/500/500" alt="Team celebrating a match win">
+        <span class="gallery-caption">Grand Final — Match Point</span>
+      </button>
+
+      <button class="gallery-item" data-type="image"
+        data-title="Bootcamp Week — Day 3"
+        data-desc="Five days of scrims, VOD reviews, and set plays ahead of the regional qualifier. Mornings are drills, afternoons are full-map scrims."
+        data-full="https://picsum.photos/id/180/1000/1000">
+        <img src="https://picsum.photos/id/180/500/500" alt="Players at practice desks">
+        <span class="gallery-caption">Bootcamp Week</span>
+      </button>
+
+      <button class="gallery-item" data-type="video"
+        data-title="Highlight Reel — Playoffs"
+        data-desc="A three-minute cut of the roster's best rounds from the playoff run, from opening picks to the final ace."
+        data-full="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
+        <img src="https://picsum.photos/id/1040/500/500" alt="Video thumbnail of playoff highlights">
+        <span class="play-badge">▶</span>
+        <span class="gallery-caption">Highlight Reel</span>
+      </button>
+
+      <button class="gallery-item" data-type="image"
+        data-title="Open Tryouts"
+        data-desc="Over eighty players came through open tryouts this season. Coaches ran everyone through the same scrim block used for the main roster."
+        data-full="https://picsum.photos/id/431/1000/1000">
+        <img src="https://picsum.photos/id/431/500/500" alt="Players at open tryouts">
+        <span class="gallery-caption">Open Tryouts</span>
+      </button>
+
+      <button class="gallery-item" data-type="image"
+        data-title="Fan Meet & Greet"
+        data-desc="After the semifinal win, the roster stayed late for photos, signings, and a Q&A with the local fan community."
+        data-full="https://picsum.photos/id/453/1000/1000">
+        <img src="https://picsum.photos/id/453/500/500" alt="Players meeting fans">
+        <span class="gallery-caption">Fan Meet & Greet</span>
+      </button>
+
+      <button class="gallery-item" data-type="video"
+        data-title="Behind the Scrims"
+        data-desc="A short behind-the-scenes look at a normal scrim night: comms, coach notes, and the mid-scrim strategy shifts."
+        data-full="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
+        <img src="https://picsum.photos/id/1015/500/500" alt="Video thumbnail of scrim night">
+        <span class="play-badge">▶</span>
+        <span class="gallery-caption">Behind the Scrims</span>
+      </button>
+
+      <button class="gallery-item" data-type="image"
+        data-title="New Jersey Reveal"
+        data-desc="Season 3 jerseys revealed at the training house, worn for the first time at the following weekend's qualifier."
+        data-full="https://picsum.photos/id/338/1000/1000">
+        <img src="https://picsum.photos/id/338/500/500" alt="Team wearing new jerseys">
+        <span class="gallery-caption">Jersey Reveal</span>
+      </button>
+
+      <button class="gallery-item" data-type="image"
+        data-title="Community Charity Stream"
+        data-desc="A 12-hour charity stream with the roster and partnered creators, raising funds for a local youth gaming program."
+        data-full="https://picsum.photos/id/96/1000/1000">
+        <img src="https://picsum.photos/id/96/500/500" alt="Charity stream setup">
+        <span class="gallery-caption">Charity Stream</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="num">07</span> SEVENDU</a>
+        <p>An esports organization built around discipline, teamwork, and the number seven. Follow the roster, catch our matches, come train with us.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#members">Members</a></li>
+            <li><a href="activities.html">Activities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">X / Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitch</a></li>
+            <li><a href="#">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sevendu Esports. All rights reserved.</span>
+      <span>hello@sevendu.gg</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
