@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var type = item.dataset.type;
     var tileImg = item.querySelector('img'); // may be null for video tiles now that previews use <video>
     var tileVideo = item.querySelector('video');
-    var src = tileImg ? tileImg.src : '';
+    var src = item.dataset.full || (tileImg ? tileImg.src : '');
 
     mediaWrap.innerHTML = '';
     if (type === 'video') {
